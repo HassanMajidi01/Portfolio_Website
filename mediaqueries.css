@@ -7,8 +7,10 @@
     .about-containers {
         flex-wrap: wrap;
     }
+   #contact {
+    margin-top: 720px;
 }
-
+}
 
 
 @media screen  and (max-width: 1200px) {
@@ -40,6 +42,9 @@
     }
     .about-containers {
         margin-top: 0;
+    }
+    #contact {
+        margin: 2rem;
     }
 }
 
@@ -92,6 +97,7 @@
     .text-container {
         text-align: justify;
     }
+    
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap')
